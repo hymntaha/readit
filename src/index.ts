@@ -9,6 +9,7 @@ const main = async () => {
   const post = orm.em.create(Post, {
     title: "First post",
   });
+
   await orm.em.persistAndFlush(post);
   await orm.em.nativeInsert;
 };
