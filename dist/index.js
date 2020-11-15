@@ -21,7 +21,6 @@ const main = () => __awaiter(void 0, void 0, void 0, function* () {
         title: "First post",
     });
     yield orm.em.persistAndFlush(post);
-    yield orm.em.nativeInsert;
 });
 main().catch((err) => console.error(err));
 //# sourceMappingURL=index.js.map

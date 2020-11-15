@@ -11,7 +11,6 @@ const main = async () => {
   });
 
   await orm.em.persistAndFlush(post);
-  await orm.em.nativeInsert;
 };
 
 main().catch((err) => console.error(err));
